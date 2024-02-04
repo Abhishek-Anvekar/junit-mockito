@@ -22,6 +22,10 @@ public class AssertExample {
         assertThrows() - if method throwing same exception that we mentioned in test case then true otherwise false
 
         Mockito - mock object returns dummy data and avoid external dependencies
+        @Mock: It creates a mock object.
+        @InjectMocks: It injects mocks into the fields of the test class
+        @ExtendWith(MockitoExtension.class) annotation is used in JUnit 5 to enable the Mockito extension, which integrates Mockito with JUnit 5 tests.
+        @RunWith(MockitoJUnitRunner.class) - used in Junit 4  [equivalent to ExtendWith() annotation of junit 5]
      */
     @Test
     public void assertArrayEqualstest(){
